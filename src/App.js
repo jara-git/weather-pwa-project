@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FetchWeather } from './api/FetchWeather';
 import './App.css';
 
+
 const App = () => {
   const [query, setQuery] = useState('');
   const [weather, setWeather] = useState({});
